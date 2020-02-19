@@ -1,0 +1,33 @@
+url: https://github.com/AsgardCms/Platform
+versions:
+    "3.4.0":
+        changed:
+            - Fixing corrupted fonts
+    "3.1.1":
+        changed:
+            - Upgrade Pusher client and sending additional options to the plugin
+    "3.1.0":
+        changed:
+            - Updated AdminLTE to version 2.4.0
+            - Use the pusher key read from configuration instead of env file
+    "3.0.3":
+        changed:
+            - Adding error styles on el-tabs
+    "3.0.0":
+        added:
+            - <code>@route</code> directive to include all laravel routes, now accessible via javascript
+    "2.5.0":
+        added:
+            - <code>js-stack</code> and <code>css-stack</code> stacks
+            - New CKEditor skin to better integrate with bootstrap
+    "2.4.0":
+        changed:
+            - Moved to using laravel.mix
+            - Dependencies are now handled by NPM instead of Bower
+    "2.0.0":
+        added:
+            - Manual notifications partial, to remove laracasts/flash
+            - Setting the Authorization header for all ajax calls in the backend. Using the logged in first api key.
+            - Adding configuration to set a custom ckeditor config file
+        removed:
+            - Removed sisyphus usage

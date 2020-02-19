@@ -1,0 +1,67 @@
+@import "Asgard/vars";
+@import "Asgard/notifications";
+@import "Asgard/mediaModule";
+@import "mixins";
+@import "footer";
+
+@import "skins/blue.less";
+
+// For the appended elements
+.sidebar-menu .append {
+  margin-top: -44px;
+}
+.sidebar-menu .treeview-menu .append {
+  margin-top: -30px;
+}
+.skin-blue .sidebar-menu .append:hover,
+.skin-blue .sidebar-menu > li.active > a.append {
+  color: #fff;
+  background: none;
+  border: 0;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu a.append,
+.sidebar-mini.sidebar-collapse .sidebar-menu li.menu-title {
+  display: none;
+}
+
+// Correctly aligning the checkbox labels
+.checkbox label {
+  padding-left: 0;
+}
+.checkbox label div {
+  margin-right: 5px;
+  margin-top: -2px;
+}
+
+// Index tables
+.tool-bar .search {
+  float: right;
+}
+
+// Headers inside .content
+.content .content-header {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+.content .media-breadcrumb .el-breadcrumb,
+.content .content-header .el-breadcrumb {
+  float: right;
+  background: transparent;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  padding: 7px 5px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  border-radius: 2px;
+}
+
+.el-tabs__header {
+  .error {
+    color : #dd4b39;
+  }
+}

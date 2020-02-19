@@ -1,0 +1,44 @@
+{
+    "name": "asgardcms/products",
+    "description": "",
+    "type": "asgard-module",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "composer/installers": "~1.0",
+        "idavoll/core-module": "4.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "orchestra/testbench": "3.6.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Products\\": ".",
+            "Modules\\": "Modules/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Products\\Providers\\ProductsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Products\\": ""
+        }
+    }
+}

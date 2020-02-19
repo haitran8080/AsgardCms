@@ -1,0 +1,17 @@
+{
+    "name": "Products",
+    "alias": "products",
+    "description": "",
+    "keywords": [],
+    "version": "1.0.0",
+	"active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Products\\Providers\\ProductsServiceProvider",
+        "Modules\\Products\\Providers\\EventServiceProvider",
+        "Modules\\Products\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
